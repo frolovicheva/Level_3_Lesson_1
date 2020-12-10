@@ -15,7 +15,6 @@ public class Task_2 {
 
     }
     /*Попробовала написать метод, который преобразует двумерный массив*/
-
     private static  <T> ArrayList<T> arr2IntoArray(T[][] arr) {
       ArrayList<T> arrayList = new ArrayList<> ();
         for (T[] ts : arr) {
